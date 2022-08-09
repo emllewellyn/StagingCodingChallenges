@@ -9,7 +9,7 @@ public class QuadraticFormula {
 	}
 	
 	public static int quadraticEquation(int a, int b, int c) {
-		return (int) (-b + Math.sqrt(Math.pow(b, 2) - 4*a*c))/(2*a);
+		return (int) (-b + Math.sqrt(Math.pow(b, 2) - 4*a*c)) / (2*a);
 	}
 
 }
